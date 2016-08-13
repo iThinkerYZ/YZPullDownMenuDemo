@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDD40131D5EF2EC00EB3C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40121D5EF2EC00EB3C85 /* main.m */; };
+		ECDD40161D5EF2EC00EB3C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40151D5EF2EC00EB3C85 /* AppDelegate.m */; };
+		ECDD40191D5EF2EC00EB3C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40181D5EF2EC00EB3C85 /* ViewController.m */; };
+		ECDD401C1D5EF2EC00EB3C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD401A1D5EF2EC00EB3C85 /* Main.storyboard */; };
+		ECDD401E1D5EF2EC00EB3C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDD401D1D5EF2EC00EB3C85 /* Assets.xcassets */; };
+		ECDD40211D5EF2EC00EB3C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD401F1D5EF2EC00EB3C85 /* LaunchScreen.storyboard */; };
+		ECDD40701D5EF3FA00EB3C85 /* YZAllCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40551D5EF3FA00EB3C85 /* YZAllCourseViewController.m */; };
+		ECDD40711D5EF3FA00EB3C85 /* YZAllCourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD40561D5EF3FA00EB3C85 /* YZAllCourseViewController.xib */; };
+		ECDD40721D5EF3FA00EB3C85 /* YZMoreMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD405C1D5EF3FA00EB3C85 /* YZMoreMenuViewController.m */; };
+		ECDD40731D5EF3FA00EB3C85 /* YZMoreMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD405D1D5EF3FA00EB3C85 /* YZMoreMenuViewController.xib */; };
+		ECDD40741D5EF3FA00EB3C85 /* YZMoreMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40611D5EF3FA00EB3C85 /* YZMoreMenuCell.m */; };
+		ECDD40751D5EF3FA00EB3C85 /* UIView+YZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40641D5EF3FA00EB3C85 /* UIView+YZCategory.m */; };
+		ECDD40761D5EF3FA00EB3C85 /* YZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40661D5EF3FA00EB3C85 /* YZMenuButton.m */; };
+		ECDD40771D5EF3FA00EB3C85 /* YZSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD406A1D5EF3FA00EB3C85 /* YZSortViewController.m */; };
+		ECDD40781D5EF3FA00EB3C85 /* YZSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD406E1D5EF3FA00EB3C85 /* YZSortCell.m */; };
+		ECDD40791D5EF3FA00EB3C85 /* YZSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD406F1D5EF3FA00EB3C85 /* YZSortCell.xib */; };
+		ECDD40861D5EF7BE00EB3C85 /* YZCover.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40831D5EF7BE00EB3C85 /* YZCover.m */; };
+		ECDD40871D5EF7BE00EB3C85 /* YZPullDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDD40851D5EF7BE00EB3C85 /* YZPullDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECDD400E1D5EF2EC00EB3C85 /* YZPullDownMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZPullDownMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDD40121D5EF2EC00EB3C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECDD40141D5EF2EC00EB3C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECDD40151D5EF2EC00EB3C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECDD40171D5EF2EC00EB3C85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECDD40181D5EF2EC00EB3C85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECDD401B1D5EF2EC00EB3C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDD401D1D5EF2EC00EB3C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDD40201D5EF2EC00EB3C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDD40221D5EF2EC00EB3C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDD40541D5EF3FA00EB3C85 /* YZAllCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAllCourseViewController.h; sourceTree = "<group>"; };
+		ECDD40551D5EF3FA00EB3C85 /* YZAllCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAllCourseViewController.m; sourceTree = "<group>"; };
+		ECDD40561D5EF3FA00EB3C85 /* YZAllCourseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZAllCourseViewController.xib; sourceTree = "<group>"; };
+		ECDD405B1D5EF3FA00EB3C85 /* YZMoreMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMoreMenuViewController.h; sourceTree = "<group>"; };
+		ECDD405C1D5EF3FA00EB3C85 /* YZMoreMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMoreMenuViewController.m; sourceTree = "<group>"; };
+		ECDD405D1D5EF3FA00EB3C85 /* YZMoreMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZMoreMenuViewController.xib; sourceTree = "<group>"; };
+		ECDD40601D5EF3FA00EB3C85 /* YZMoreMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMoreMenuCell.h; sourceTree = "<group>"; };
+		ECDD40611D5EF3FA00EB3C85 /* YZMoreMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMoreMenuCell.m; sourceTree = "<group>"; };
+		ECDD40631D5EF3FA00EB3C85 /* UIView+YZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YZCategory.h"; sourceTree = "<group>"; };
+		ECDD40641D5EF3FA00EB3C85 /* UIView+YZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YZCategory.m"; sourceTree = "<group>"; };
+		ECDD40651D5EF3FA00EB3C85 /* YZMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMenuButton.h; sourceTree = "<group>"; };
+		ECDD40661D5EF3FA00EB3C85 /* YZMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMenuButton.m; sourceTree = "<group>"; };
+		ECDD40691D5EF3FA00EB3C85 /* YZSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSortViewController.h; sourceTree = "<group>"; };
+		ECDD406A1D5EF3FA00EB3C85 /* YZSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSortViewController.m; sourceTree = "<group>"; };
+		ECDD406D1D5EF3FA00EB3C85 /* YZSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSortCell.h; sourceTree = "<group>"; };
+		ECDD406E1D5EF3FA00EB3C85 /* YZSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSortCell.m; sourceTree = "<group>"; };
+		ECDD406F1D5EF3FA00EB3C85 /* YZSortCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZSortCell.xib; sourceTree = "<group>"; };
+		ECDD40821D5EF7BE00EB3C85 /* YZCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCover.h; sourceTree = "<group>"; };
+		ECDD40831D5EF7BE00EB3C85 /* YZCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCover.m; sourceTree = "<group>"; };
+		ECDD40841D5EF7BE00EB3C85 /* YZPullDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPullDownMenu.h; sourceTree = "<group>"; };
+		ECDD40851D5EF7BE00EB3C85 /* YZPullDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPullDownMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDD400B1D5EF2EC00EB3C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDD40051D5EF2EC00EB3C85 = {
+			isa = PBXGroup;
+			children = (
+				ECDD40101D5EF2EC00EB3C85 /* YZPullDownMenuDemo */,
+				ECDD400F1D5EF2EC00EB3C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDD400F1D5EF2EC00EB3C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD400E1D5EF2EC00EB3C85 /* YZPullDownMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDD40101D5EF2EC00EB3C85 /* YZPullDownMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40811D5EF7BE00EB3C85 /* YZPullDownMenu */,
+				ECDD40511D5EF3FA00EB3C85 /* Classes */,
+				ECDD40141D5EF2EC00EB3C85 /* AppDelegate.h */,
+				ECDD40151D5EF2EC00EB3C85 /* AppDelegate.m */,
+				ECDD40171D5EF2EC00EB3C85 /* ViewController.h */,
+				ECDD40181D5EF2EC00EB3C85 /* ViewController.m */,
+				ECDD401A1D5EF2EC00EB3C85 /* Main.storyboard */,
+				ECDD401D1D5EF2EC00EB3C85 /* Assets.xcassets */,
+				ECDD401F1D5EF2EC00EB3C85 /* LaunchScreen.storyboard */,
+				ECDD40221D5EF2EC00EB3C85 /* Info.plist */,
+				ECDD40111D5EF2EC00EB3C85 /* Supporting Files */,
+			);
+			path = YZPullDownMenuDemo;
+			sourceTree = "<group>";
+		};
+		ECDD40111D5EF2EC00EB3C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40121D5EF2EC00EB3C85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECDD40511D5EF3FA00EB3C85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40521D5EF3FA00EB3C85 /* AllCourse */,
+				ECDD40591D5EF3FA00EB3C85 /* MoreMenu */,
+				ECDD40621D5EF3FA00EB3C85 /* Other */,
+				ECDD40671D5EF3FA00EB3C85 /* Sort */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECDD40521D5EF3FA00EB3C85 /* AllCourse */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40531D5EF3FA00EB3C85 /* Controllers */,
+				ECDD40571D5EF3FA00EB3C85 /* Models */,
+				ECDD40581D5EF3FA00EB3C85 /* Views */,
+			);
+			path = AllCourse;
+			sourceTree = "<group>";
+		};
+		ECDD40531D5EF3FA00EB3C85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40541D5EF3FA00EB3C85 /* YZAllCourseViewController.h */,
+				ECDD40551D5EF3FA00EB3C85 /* YZAllCourseViewController.m */,
+				ECDD40561D5EF3FA00EB3C85 /* YZAllCourseViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECDD40571D5EF3FA00EB3C85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECDD40581D5EF3FA00EB3C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECDD40591D5EF3FA00EB3C85 /* MoreMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD405A1D5EF3FA00EB3C85 /* Controllers */,
+				ECDD405E1D5EF3FA00EB3C85 /* Models */,
+				ECDD405F1D5EF3FA00EB3C85 /* Views */,
+			);
+			path = MoreMenu;
+			sourceTree = "<group>";
+		};
+		ECDD405A1D5EF3FA00EB3C85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD405B1D5EF3FA00EB3C85 /* YZMoreMenuViewController.h */,
+				ECDD405C1D5EF3FA00EB3C85 /* YZMoreMenuViewController.m */,
+				ECDD405D1D5EF3FA00EB3C85 /* YZMoreMenuViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECDD405E1D5EF3FA00EB3C85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECDD405F1D5EF3FA00EB3C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40601D5EF3FA00EB3C85 /* YZMoreMenuCell.h */,
+				ECDD40611D5EF3FA00EB3C85 /* YZMoreMenuCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECDD40621D5EF3FA00EB3C85 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40631D5EF3FA00EB3C85 /* UIView+YZCategory.h */,
+				ECDD40641D5EF3FA00EB3C85 /* UIView+YZCategory.m */,
+				ECDD40651D5EF3FA00EB3C85 /* YZMenuButton.h */,
+				ECDD40661D5EF3FA00EB3C85 /* YZMenuButton.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ECDD40671D5EF3FA00EB3C85 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40681D5EF3FA00EB3C85 /* Controllers */,
+				ECDD406B1D5EF3FA00EB3C85 /* Models */,
+				ECDD406C1D5EF3FA00EB3C85 /* Views */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		ECDD40681D5EF3FA00EB3C85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40691D5EF3FA00EB3C85 /* YZSortViewController.h */,
+				ECDD406A1D5EF3FA00EB3C85 /* YZSortViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECDD406B1D5EF3FA00EB3C85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECDD406C1D5EF3FA00EB3C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD406D1D5EF3FA00EB3C85 /* YZSortCell.h */,
+				ECDD406E1D5EF3FA00EB3C85 /* YZSortCell.m */,
+				ECDD406F1D5EF3FA00EB3C85 /* YZSortCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECDD40811D5EF7BE00EB3C85 /* YZPullDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD40821D5EF7BE00EB3C85 /* YZCover.h */,
+				ECDD40831D5EF7BE00EB3C85 /* YZCover.m */,
+				ECDD40841D5EF7BE00EB3C85 /* YZPullDownMenu.h */,
+				ECDD40851D5EF7BE00EB3C85 /* YZPullDownMenu.m */,
+			);
+			name = YZPullDownMenu;
+			path = ../../YZPullDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDD400D1D5EF2EC00EB3C85 /* YZPullDownMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDD40251D5EF2EC00EB3C85 /* Build configuration list for PBXNativeTarget "YZPullDownMenuDemo" */;
+			buildPhases = (
+				ECDD400A1D5EF2EC00EB3C85 /* Sources */,
+				ECDD400B1D5EF2EC00EB3C85 /* Frameworks */,
+				ECDD400C1D5EF2EC00EB3C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZPullDownMenuDemo;
+			productName = YZPullDownMenuDemo;
+			productReference = ECDD400E1D5EF2EC00EB3C85 /* YZPullDownMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDD40061D5EF2EC00EB3C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					ECDD400D1D5EF2EC00EB3C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YKYB5YMSRP;
+					};
+				};
+			};
+			buildConfigurationList = ECDD40091D5EF2EC00EB3C85 /* Build configuration list for PBXProject "YZPullDownMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDD40051D5EF2EC00EB3C85;
+			productRefGroup = ECDD400F1D5EF2EC00EB3C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDD400D1D5EF2EC00EB3C85 /* YZPullDownMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDD400C1D5EF2EC00EB3C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDD40211D5EF2EC00EB3C85 /* LaunchScreen.storyboard in Resources */,
+				ECDD401E1D5EF2EC00EB3C85 /* Assets.xcassets in Resources */,
+				ECDD40711D5EF3FA00EB3C85 /* YZAllCourseViewController.xib in Resources */,
+				ECDD401C1D5EF2EC00EB3C85 /* Main.storyboard in Resources */,
+				ECDD40791D5EF3FA00EB3C85 /* YZSortCell.xib in Resources */,
+				ECDD40731D5EF3FA00EB3C85 /* YZMoreMenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDD400A1D5EF2EC00EB3C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDD40751D5EF3FA00EB3C85 /* UIView+YZCategory.m in Sources */,
+				ECDD40741D5EF3FA00EB3C85 /* YZMoreMenuCell.m in Sources */,
+				ECDD40721D5EF3FA00EB3C85 /* YZMoreMenuViewController.m in Sources */,
+				ECDD40861D5EF7BE00EB3C85 /* YZCover.m in Sources */,
+				ECDD40771D5EF3FA00EB3C85 /* YZSortViewController.m in Sources */,
+				ECDD40781D5EF3FA00EB3C85 /* YZSortCell.m in Sources */,
+				ECDD40191D5EF2EC00EB3C85 /* ViewController.m in Sources */,
+				ECDD40161D5EF2EC00EB3C85 /* AppDelegate.m in Sources */,
+				ECDD40871D5EF7BE00EB3C85 /* YZPullDownMenu.m in Sources */,
+				ECDD40761D5EF3FA00EB3C85 /* YZMenuButton.m in Sources */,
+				ECDD40701D5EF3FA00EB3C85 /* YZAllCourseViewController.m in Sources */,
+				ECDD40131D5EF2EC00EB3C85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECDD401A1D5EF2EC00EB3C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDD401B1D5EF2EC00EB3C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDD401F1D5EF2EC00EB3C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDD40201D5EF2EC00EB3C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDD40231D5EF2EC00EB3C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECDD40241D5EF2EC00EB3C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDD40261D5EF2EC00EB3C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZPullDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZPullDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECDD40271D5EF2EC00EB3C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZPullDownMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZPullDownMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDD40091D5EF2EC00EB3C85 /* Build configuration list for PBXProject "YZPullDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDD40231D5EF2EC00EB3C85 /* Debug */,
+				ECDD40241D5EF2EC00EB3C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDD40251D5EF2EC00EB3C85 /* Build configuration list for PBXNativeTarget "YZPullDownMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDD40261D5EF2EC00EB3C85 /* Debug */,
+				ECDD40271D5EF2EC00EB3C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDD40061D5EF2EC00EB3C85 /* Project object */;
+}
