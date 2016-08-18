@@ -22,6 +22,8 @@
         
         _cheakView = [UIButton buttonWithType:UIButtonTypeCustom];
         
+        _cheakView.userInteractionEnabled = NO;
+        
         [_cheakView setImage:[UIImage imageNamed:@"搜索-更多-未选中"] forState:UIControlStateNormal];
         
         [_cheakView setImage:[UIImage imageNamed:@"搜索-更多-已选中"] forState:UIControlStateSelected];

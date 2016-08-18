@@ -58,8 +58,13 @@ static NSString * const ID = @"cell";
     
     // 判断是否点击全部
     if (indexPath.row == 0) { // 全部
-        // 选中其他所有cell
-        [self selectAllCell];
+        if (cell.isSelected == YES) {
+            // 选中其他所有cell
+            [self selectAllCell];
+        } else {
+            // 取消所有cell选中
+            [self unSelectAllCell];
+        }
         return;
     }
     
@@ -98,6 +103,20 @@ static NSString * const ID = @"cell";
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:0];
     YZMoreMenuCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
     cell.isSelected = NO;
+}
+
+// 取消选中所有cell
+- (void)unSelectAllCell
+{
+    // 取消之前所有选中cell
+    [self.selectCells removeAllObjects];
+    
+    NSInteger count = _titleArray.count;
+    for (int i = 0; i < count; i++) {
+        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:0];
+        YZMoreMenuCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+        cell.isSelected = NO;
+    }
 }
 
 // 选中所有cell
