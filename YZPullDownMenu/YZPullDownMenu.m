@@ -136,27 +136,30 @@ NSString * const YZUpdateMenuTitleNote = @"YZUpdateMenuTitleNote";
     _coverColor = [UIColor colorWithRed:221 / 255.0 green:221 / 255.0 blue:221 / 255.0 alpha:.7];
     
     // 监听更新菜单标题通知
-    _observer = [[NSNotificationCenter defaultCenter] addObserverForName:YZUpdateMenuTitleNote object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
-        
-        // 获取列
-        NSInteger col = [self.controllers indexOfObject:note.object];
-        
-        // 获取对应按钮
-        UIButton *btn = self.menuButtons[col];
-        
-        // 隐藏下拉菜单
-        [self dismiss];
-        
-        // 获取所有值
-        NSArray *allValues = note.userInfo.allValues;
-        
-        // 不需要设置标题,字典个数大于1，或者有数组
-        if (allValues.count > 1 || [allValues.firstObject isKindOfClass:[NSArray class]]) return ;
-        
-        // 设置按钮标题
-        [btn setTitle:allValues.firstObject forState:UIControlStateNormal];
-        
-    }];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveNote:) name:YZUpdateMenuTitleNote object:nil];
+    /*
+     _observer = [[NSNotificationCenter defaultCenter] addObserverForName:YZUpdateMenuTitleNote object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+     __weak typeof(self) Weakself = self;
+     // 获取列
+     NSInteger col = [Weakself.controllers indexOfObject:note.object];
+     
+     // 获取对应按钮
+     UIButton *btn = Weakself.menuButtons[col];
+     
+     // 隐藏下拉菜单
+     [self dismiss];
+     
+     // 获取所有值
+     NSArray *allValues = note.userInfo.allValues;
+     
+     // 不需要设置标题,字典个数大于1，或者有数组
+     if (allValues.count > 1 || [allValues.firstObject isKindOfClass:[NSArray class]]) return ;
+     
+     // 设置按钮标题
+     [btn setTitle:allValues.firstObject forState:UIControlStateNormal];
+     
+     }];
+     */
 }
 
 #pragma mark - 布局子控件
@@ -375,7 +378,31 @@ NSString * const YZUpdateMenuTitleNote = @"YZUpdateMenuTitleNote";
 {
     [self clear];
     
-    [[NSNotificationCenter defaultCenter] removeObserver:_observer];
+    //    [[NSNotificationCenter defaultCenter] removeObserver:_observer];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:YZUpdateMenuTitleNote object:nil];
 }
+
+
+#pragma mark - 通知处理
+-(void)didReceiveNote:(NSNotification *)note{
+    // 获取列
+    NSInteger col = [self.controllers indexOfObject:note.object];
+    
+    // 获取对应按钮
+    UIButton *btn = self.menuButtons[col];
+    
+    // 隐藏下拉菜单
+    [self dismiss];
+    
+    // 获取所有值
+    NSArray *allValues = note.userInfo.allValues;
+    
+    // 不需要设置标题,字典个数大于1，或者有数组
+    if (allValues.count > 1 || [allValues.firstObject isKindOfClass:[NSArray class]]) return ;
+    
+    // 设置按钮标题
+    [btn setTitle:allValues.firstObject forState:UIControlStateNormal];
+}
+
 
 @end
